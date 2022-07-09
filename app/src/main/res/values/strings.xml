@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ExaPracAMST</string>
+    <string name="aplicaciones_moviles_y_servicios_telematicos">APLICACIONES MOVILES Y SERVICIOS TELEMATICOS</string>
+    <string name="examen_practico">Examen Practico</string>
+    <string name="kevin_lopez_jose_delgado">Kevin Lopez - Jose Delgado</string>
+    <string name="busqueda_por_nombre">Busqueda Por Nombre</string>
+    <string name="buscar_heroes">Buscar Heroes</string>
+    <string name="resultados">"Resultados: "</string>
+</resources>
