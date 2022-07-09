@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     EditText buscar;
     Button BuscarHeroes;
     private String token = "5612224972122527";
-    private String url = "https://www.superheroapi.com/api.php/3472655306131570/search/";
+    private String url = "https://www.superheroapi.com/api.php/5612224972122527/search/";
     private LinearLayout listaResultados;
     private Map<String, Heroe> heroesObtenidos;
     private ArrayList<Heroe> herosArray;
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
     //funcion que Permita encontrar buscar todos los héroes que coincidan con el criterio de búsqueda
     public void buscarHeroes(View view){
         String superHeroeB = buscar.getText().toString();
-        String url_registros = "https://www.superheroapi.com/api.php/3472655306131570/search/" + superHeroeB;
+        String url_registros = "https://www.superheroapi.com/api.php/5612224972122527/search/" + superHeroeB;
             jsonParse(url_registros);
         //JSONObject object =
     }
